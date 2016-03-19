@@ -1,5 +1,4 @@
-#ifndef JUBEATPLUS_MUSICSCORE_HASHSCORE
-#define JUBEATPLUS_MUSICSCORE_HASHSCORE
+#pragma once
 
 #include<iostream>
 using namespace std;
@@ -22,5 +21,3 @@ class chksco
 
 		char* getData(void);
 };
-
-#endif JUBEATPLUS_MUSICSCORE_HASHSCORE
