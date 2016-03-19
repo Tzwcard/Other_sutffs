@@ -7,7 +7,7 @@ int main(int argc,char** argv)
 {
   chksco cChk(900000001,960676,964576,963920);
   char *tmp=cChk.getData();
-  MD5 m(tmp,32);
+  MD5 m(tmp,32); // use md5 directly
   cout<<m.getMD5.c_str();
 }
 
